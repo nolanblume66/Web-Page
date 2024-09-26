@@ -1,0 +1,86 @@
+header,
+section,
+footer,
+aside,
+nav,
+article,
+figure,
+figcaption {
+    display: block;
+}
+
+body {
+    font-family: Georgia, Times, sans-serif;
+    line-height: 1.4em;
+    margin: 0px;
+    background: url("images/dark-wood.jpg");
+}
+
+.wrapper {
+    width: 940px;
+    margin: 20px auto;
+    /* 20px on top/bottom and equal margin for left/right */
+    background-color: #fff;
+    border: 3px solid purple;
+}
+
+/* header */
+ul li {
+    display: inline;
+    margin-right: 40px;
+}
+
+nav,
+footer {
+    clear: both;
+    background-color: darkgrey;
+    height: 30px;
+    color: white
+}
+
+nav ul {
+    margin-top: -6px
+}
+
+nav li a {
+    color: white
+}
+nav li a:hover, .current {color: purple}
+
+a {text-decoration: none}
+/* Main Section Area */
+.courses {
+    width: 659px;
+    float: left;
+    border-right: 1px solid green;
+}
+figure{
+    float: left; padding: 5px; margin: 20px; border: 1px solid red;
+    
+}
+.courses article {
+    width: 100%;
+    overflow: auto;
+}
+figcaption {
+    font-size: 80%;
+    text-align: center
+}
+
+h2, h3 {
+    font-family: 'Lobster', cursive;
+    font-weight: normal
+}
+
+h3 {color: purple}
+
+aside {
+    width: 230px;
+    float: left;
+    padding-left: 20px;
+    
+}
+
+aside a {display: block; padding: 10px;
+border-bottom: 3px dotted purple
+}
